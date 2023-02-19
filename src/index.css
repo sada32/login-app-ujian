@@ -1,0 +1,39 @@
+body{
+  height: 100%;
+}
+
+i{
+  color: #084971;
+}
+
+.global-container{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.container-login{
+  background: rgb(2,40,87);
+  background: linear-gradient(180deg, rgba(2,40,87,1) 0%, rgba(132,99,128,1) 100%);
+}
+
+.input-group-text{
+  border: none;
+  border-radius: 0;
+  background-color: #ccd1dd;
+}
+
+.form-style input{
+  background-color: #ccd1dd !important;
+  border:0;
+}
+
+button{
+  height:50px;
+}
+
+.button-submit {
+  background-color: #32324a;
+}
