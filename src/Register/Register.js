@@ -6,7 +6,6 @@ import FormTextField from "../components/form/form";
 import {createUserWithEmailAndPassword} from 'firebase/auth';
 import {toast} from "react-toastify";
 import {Auth} from "../config/firebase";
-import {Link} from "react-router-dom";
 
 const loginSchema = yup.object().shape({
     username: yup.string().required('Email harus di isi!'),

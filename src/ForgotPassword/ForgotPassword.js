@@ -3,7 +3,6 @@ import {Button, Col, Form, InputGroup, Row} from "react-bootstrap";
 import emailjs from '@emailjs/browser'
 import {toast} from "react-toastify";
 import password from 'secure-random-password'
-import {getAuth, updatePassword} from "firebase/auth";
 import {useNavigate} from "react-router-dom";
 
 const ChangePassword = () => {
